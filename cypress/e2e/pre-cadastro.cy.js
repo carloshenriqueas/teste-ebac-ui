@@ -3,7 +3,7 @@ const { faker } = require('@faker-js/faker');
 context('pre cadastro cliente', ()=>{
 
     beforeEach(()=>{
-        cy.visit('http://lojaebac.ebaconline.art.br/minha-conta/')
+        cy.visit('minha-conta/')
     })
 
     it('novo cadastro completo', ()=>{

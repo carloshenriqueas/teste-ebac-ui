@@ -2,7 +2,7 @@
 
 context('inserir produtos no carrinho', ()=>{
     beforeEach(()=>{
-        cy.visit('http://lojaebac.ebaconline.art.br/produtos/')
+        cy.visit('produtos/')
     })
 
     it('seleciona produto', ()=>{
