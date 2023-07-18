@@ -20,4 +20,11 @@ context('inserir produtos no carrinho', ()=>{
         cy.get('.dropdown-toggle > .mini-cart-items').should('contain',quantidade)
         cy.get('.woocommerce-message').should('contain', quantidade +' × “Abominable Hoodie” foram adicionados no seu carrinho.')
     })
+
+    it.only('seleciona produto com comando customizado', ()=>{
+        let quantidade = 8
+        cy.addProduto(quantidade,0)
+        cy.get('.dropdown-toggle > .mini-cart-items').should('contain',quantidade)
+        cy.get('.woocommerce-message').should('contain', quantidade +' × “Abominable Hoodie” foram adicionados no seu carrinho.')
+    })
 })
