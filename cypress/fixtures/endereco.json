@@ -1,0 +1,34 @@
+[
+{
+    "nome":"carlos",
+    "sobrenome":"santos",
+    "pais": "Brasil",
+    "endereco": "Avenida Centenario",
+    "cidade": "Brumado",
+    "estado": "Bahia",
+    "cep": "46100-000",
+    "telefone": "77999913026"
+},
+
+{
+    "nome":"matheus",
+    "sobrenome":"Costa",
+    "pais": "Brasil",
+    "endereco": "Avenida Sete",
+    "cidade": "Salvador",
+    "estado": "Bahia",
+    "cep": "48456-987",
+    "telefone": "71998567845"
+},
+
+{
+    "nome":"Mike",
+    "sobrenome":"Tyson",
+    "pais": "Canadá",
+    "endereco": "Rua Seven",
+    "cidade": "Toronto",
+    "estado": "Ontario",
+    "cep": "4568-2356",
+    "telefone": "158897513321"
+}
+]
