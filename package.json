@@ -10,8 +10,7 @@
       "cy:run": "npx cypress run",
       "cy:dashboard": "",
       "cy:report": ""
-    }
-  },
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/carloshenriqueas/teste-ebac-ui.git"
